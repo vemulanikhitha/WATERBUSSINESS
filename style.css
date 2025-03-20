@@ -1,0 +1,117 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff; /* Water-like blue for the navbar */
+}
+
+.navbar-brand {
+  color: #fff !important; /* White text for the brand */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text for the navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important; /* Golden yellow hover effect */
+}
+
+/* Jumbotron Section (Home Page) */
+.jumbotron {
+  background-color: #e1f5fe; /* Light cyan blue */
+  color: #007bff; /* Water-like blue text */
+  padding: 4rem 2rem;
+  border-radius: 8px;
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+}
+
+/* Section for About, Services, and Background Pages */
+section.container {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #ffffff; /* White background for content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2.5rem;
+  color: #007bff; /* Blue color for headings */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff; /* Water-like blue for the footer */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Form Styles (Contact Page) */
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group label {
+  color: #007bff; /* Blue label color */
+}
+
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form .form-control:focus {
+  border-color: #007bff; /* Blue border on focus */
+}
+
+form button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd700; /* Golden yellow on hover */
+}
