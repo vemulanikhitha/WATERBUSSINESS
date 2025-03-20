@@ -1,13 +1,13 @@
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: #e0f7fa; /* Light blue for water-themed background */
   color: #333;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #007bff; /* Water-like blue for the navbar */
+  background-color: #0288d1; /* Deep blue for the navbar */
 }
 
 .navbar-brand {
@@ -24,8 +24,8 @@ body {
 
 /* Jumbotron Section (Home Page) */
 .jumbotron {
-  background-color: #e1f5fe; /* Light cyan blue */
-  color: #007bff; /* Water-like blue text */
+  background-color: #b3e5fc; /* Light cyan blue to represent water */
+  color: #0288d1; /* Deep blue text */
   padding: 4rem 2rem;
   border-radius: 8px;
 }
@@ -50,14 +50,14 @@ section.container {
 
 section h2 {
   font-size: 2.5rem;
-  color: #007bff; /* Blue color for headings */
+  color: #0288d1; /* Blue color for headings */
   text-align: center;
   margin-bottom: 1rem;
 }
 
 /* Footer */
 footer {
-  background-color: #007bff; /* Water-like blue for the footer */
+  background-color: #0288d1; /* Deep blue for the footer */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -80,7 +80,7 @@ form {
 }
 
 form .form-group label {
-  color: #007bff; /* Blue label color */
+  color: #0288d1; /* Deep blue label color */
 }
 
 form .form-control {
@@ -89,11 +89,11 @@ form .form-control {
 }
 
 form .form-control:focus {
-  border-color: #007bff; /* Blue border on focus */
+  border-color: #0288d1; /* Deep blue border on focus */
 }
 
 form button {
-  background-color: #007bff; /* Blue button */
+  background-color: #0288d1; /* Deep blue button */
   color: white;
   border: none;
   border-radius: 5px;
@@ -103,15 +103,36 @@ form button {
 }
 
 form button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #01579b; /* Even deeper blue on hover */
 }
 
 /* Links */
 a {
-  color: #007bff;
+  color: #0288d1;
   text-decoration: none;
 }
 
 a:hover {
   color: #ffd700; /* Golden yellow on hover */
+}
+
+/* Additional Water Services Background Section */
+.water-services {
+  background-color: #4fc3f7; /* Lighter blue for water services section */
+  color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.water-services h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.water-services p {
+  font-size: 1.25rem;
+  color: #ffffff;
 }
