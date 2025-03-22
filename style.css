@@ -1,0 +1,54 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Section */
+.home-,.hero {
+  background: url('assets/bisleri.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 150px 0;
+  color: white;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* About Section */
+.about-page,.about {
+  background: url('assets/thai.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 100px 0;
+  filter: brightness(0.7); /* Darken the background for better text visibility */
+}
+
+/* Services Section */
+.services {
+  background: url('assets/bisleri.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 100px 0;
+  filter: brightness(1.0); /* Darken for contrast */
+}
+
+/* Contact Section */
+.contact {
+  background: url('assets/bisleri.JPEG') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 100px 0;
+  filter: brightness(1.0); /* Dimmed for better contrast */
+}
