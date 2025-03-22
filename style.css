@@ -7,7 +7,7 @@ body {
 
 /* Home Section */
 .home-,.hero {
-  background: url('assets/bisleri.jpeg') no-repeat center center fixed;
+  background: url('bisleri.jpeg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 150px 0;
@@ -28,7 +28,7 @@ body {
 
 /* About Section */
 .about-page,.about {
-  background: url('assets/thai.jpeg') no-repeat center center fixed;
+  background: url('thai.jpeg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 100px 0;
@@ -37,7 +37,7 @@ body {
 
 /* Services Section */
 .services {
-  background: url('assets/bisleri.jpeg') no-repeat center center fixed;
+  background: url('bisleri.jpeg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 100px 0;
@@ -46,7 +46,7 @@ body {
 
 /* Contact Section */
 .contact {
-  background: url('assets/bisleri.JPEG') no-repeat center center fixed;
+  background: url('bisleri.JPEG') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 100px 0;
